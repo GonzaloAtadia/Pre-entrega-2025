@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #211ee6;
+    background: linear-gradient(90deg, rgba(33, 30, 230, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    height:90vh;
+    header{
+        font-family: "Fugaz One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background: #2A7B9B;
+        background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+        h1{
+
+            height: 10vh;
+            font-size: 4em;
+            text-align: center;
+
+        }
+        nav{
+            display: flex;
+            justify-content: end;
+            margin-top: 1rem;
+            padding: 1rem;
+        }
+    }
+    main{
+        
+        height: 75vh;
+        text-align: center;
+        .resen{
+            height: 45vh;
+            width: 100vw;
+            display: grid;
+            
+            grid-template-columns: 1fr 1fr 1fr;
+            margin: 10px;
+            padding: 10px;
+            gap: 5px;
+            align-content: center;
+        
+            
+        
+            
+
+            img{
+                height: 100px;
+                width: 100px;
+                margin: 5px;
+                padding: 5px;
+                filter: drop-shadow(5px 5px 5px black);
+                
+            }
+            p{
+                text-align: center;
+                
+            }
+        
+            img:hover{
+                transform: translateY(-5px);
+                
+
+            }            
+            
+            .card1{
+                background-color: rgb(48, 159, 159);
+                height: 250px;
+                width: 250px;
+                border: 3px solid black;
+                
+            }
+            .card2{
+                background-color: rgb(48, 159, 159);
+                height: 250px;
+                width: 250px;
+                border: 3px solid black;
+            }
+            .card3{
+                background-color: rgb(48, 159, 159);
+                height: 250px;
+                width: 250px;
+                border: 3px solid black;
+            }
+        }
+    }
+    footer {
+    
+    display: flex;
+    justify-content: center;
+    align-content: start;
+    
+    font-style: italic;
+    text-align: center;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    .col-redes{
+        .l{
+            img{
+                width: 30px;
+
+            }
+        }       
+        
+        }
+    .parrafooter{
+        font-size: 1.5em;
+    }    
+    .seguinos{
+        font-size: 1.25em;
+    }
+    
+   
+    
+}
+}
