@@ -13,40 +13,54 @@
     <header>
         <nav>
             <ul>
-            <a href="./index.html">Volver</a>
+            <a class="boton-menu boton-volver" href="./index.html">Volver</a>
             </ul>
         </nav>
-        <h1>BeerBreaker</h1>
-        
-        
-    
+        <h1>BeerBreaker</h1>    
     </header>
-    <main>
-        <h2>Productos</h2>
-        
-        <div class="conteiner">
-            <div class="item-1">Cerveza Rubia
-                <div class="rubia">
-                    <img src="./imgs/rubiaCream.jpeg" alt="botella rubia">
-                </div>
-            </div>
-            <div class="item-2">Cerveza Roja
-                <div class="roja">
-                    <img src="./imgs/roja.jpeg" alt="botella roja">
-                </div>
-            </div>
-            <div class="item-3">Cerveza Negra
-                <div class="negra">
-                    <img src="./imgs/negraStout.jpeg" alt="botella negra">
-                </div>
-            </div>
-            <div class="item-4">Cerveza Lupulada
-                <div class="lupu">
-                    <img src="./imgs/lupuIpa.jpeg" alt="botella verde">
-                </div>
-            </div>
+    <div class="wrapper">
+        <aside>
+            <nav >
+                <ul class="barra-menu">
+                    <li>
+                        <button id="todos" class="boton-menu -boton-categoria active" >Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="rubias" class="boton-menu -boton-categoria">Rubias</button>
+                    </li>
+                    <li>
+                        <button id="rojas" class="boton-menu -boton-categoria">Rojas</button>
+                    </li>
+                    <li>
+                        <button id="negras" class="boton-menu -boton-categoria">Negras</button>
+                    </li>
+                    <li>
+                        <a class="boton-carrito" href="./carrito.html">
+                            <img src="./imgs/carrito-de-compras.png" alt="carrito">
+                            Carrito <span class="numerito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            
+        <h2 class="titulo-principal">Productos</h2>
+        <div id="contenedor-productos" class="conteiner">
+            
+
+            
+        </div>
+        <div id="carrito">
+            <h3 class="logo-carrito">
+                <a href="./carrito.html"><img src="./imgs/carrito-de-compras.png" alt="carrito de compras"></a>
+            </h3>
+            <ul id="lista-carrito"></ul>
+            <button id="vaciar-carrito">Vaciar Carrito</button>
         </div>
     </main>
+    </div>
+    
     <footer>
         <div class="seguinos">
             <p>seguinos en nuestras redes.</p>
@@ -62,5 +76,7 @@
             <p>®Todos los contenidos son de la propiedad de la pagina 2025®</p>
         </div>
     </footer>
+    <script src="./js/cervezas.js"></script>
+    <script src="./js/carrito.js"></script>
 </body>
 </html>
