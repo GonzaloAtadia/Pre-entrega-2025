@@ -21,12 +21,51 @@
                 <li><a href="./productos.html">Produtos</a></li>
                 <li><a href="./resenas.html">Reseñas</a></li>                
                 <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="./carrito.html"><img src="./imgs/carrito-de-compras.png" alt="carrito de compras"></a></li>
+                
             </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="contenedor-productos">
+
+            <div class="productos">
+                <div class="producto">
+                    <h2>Cerveza rubia</h2>
+                    <img src="./imgs/rubiaCream.jpeg" alt="botella rubia">
+                    <p>Precio: $1500</p>
+                    <button class="btn-comprar" data-nombre="Rubia" data-precio="2200">Comprar</button>
+                </div>
+
+                <div class="producto">
+                    <h2>Cerveza roja</h2>
+                    <img src="./imgs/rojaFdb.jpeg" alt="botella roja">
+                    <p>Precio: $2000</p>
+                    <button class="btn-comprar" data-nombre="Roja" data-precio="2000">Comprar</button>
+                </div>
+
+                <div class="producto">
+                    <h2>Cerveza lupulada</h2>
+                    <img src="./imgs/lupuNeipa.jpeg" alt="botella lupu">
+                    <p>Precio: $2500</p>
+                    <button class="btn-comprar" data-nombre="Lupulada" data-precio="2500">Comprar</button>
+                </div>
+
+                <div class="producto">
+                    <h2>Cerveza negra</h2>
+                    <img src="./imgs/negraChoco.jpeg" alt="botella negra">
+                    <p>Precio: $1800</p>
+                    <button class="btn-comprar" data-nombre="Negra" data-precio="1700">Comprar</button>
+                </div>
+            </div>
+
+                            
+            <h2>Carrito</h2>
+            <div id="carrito"></div>
+            <p id="total">Total: $0</p>
+            <button id="vaciar-carrito">Vaciar carrito</button>
+          
+        </section>
+        <section class="videos">
 
             <div class="img-pile">
                 <img src="./imgs/cerveza en pileta.jpg" width="300" alt="Cerveza espumosa">
@@ -63,5 +102,6 @@
             <p>®Todos los contenidos son de la propiedad de la pagina 2025®</p>
         </div>
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 </html>

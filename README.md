@@ -10,3 +10,6 @@ se agregan imagenes y videos al index
 Creacion de formularios 
 
 Agregamos una hoja de estilos al index 
+
+En otra etapa se agrega un js con funcionalidad para el carrito 
+agrgando cambios al index y productos 

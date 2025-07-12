@@ -2,160 +2,102 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 body{
+    min-height: 100vh;
+    width: 100vw;
     
-    background: #2bd686;
-    background: linear-gradient(131deg, rgba(43, 214, 134, 0.97) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
-    height: 100vh;
-    header{
-        
-        font-family: "Fugaz One", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        height: 30vh;
-        
-        h1{
-            background: #2A7B9B;
-            background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
-            height: 200px;
+    background-image:url(../imgs/fondoBirra.jpg) 
+
+
+}
+
+
+
+header {
+    border: 2px solid red;
+    height: 30vh;
+    width: 100vw;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    nav{
+            display: flex;
+            justify-content: end;
+            margin-top: 1rem;
+            padding: 1rem;
+        }
+    
+    h1{
+        height: 10vh;
         
         font-size: 4em;
         text-align: center;
-        }
-        
-        nav{
-            display: flex;
-            justify-content: end;
-            margin-top: 1rem;  
-            padding: 1rem;              
-        }
     }
+    .img-logo{
+        text-align: center;
+        border-color: 2px;
+        filter: drop-shadow(5px 5px 5px black);
+        
+        
+    }
+}    
+main{
+   
+    .contenedor-productos{
+        height: 100vh;
+    }
+    .producto{
+        border: solid #2A7B9B;
+        
+        text-align: center;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+
     img{
         height: 70px;
         width: 90px;
         object-fit: contain;
-
     }
-    main{
-        height: 500px;
-        
-        h2{
-            font-size: 5em;
-            text-align: center;
-        }
-        .conteiner{
-            
-            height: 35vh;
-            margin: 5px;
-            padding: 1px;
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 5px;
-            .producto{
-                height:30vh;
-                justify-items: center;
-                
-                flex-grow: 1;
-                
-                border: 2px solid black;
-                
-            }
-            /*.item-2{
-                height:30vh;
-                flex-grow: 1;
-                border: 2px solid black;
-                justify-items: center;
-            }
-            .item-3{
-                height:30vh;
-                flex-grow: 1;
-                border: 2px solid black;
-                
-                justify-items: center;
-            }
-            .item-4{
-                
-                border: 2px solid black;
-                height:30vh;
-                flex-grow: 1;
-               
-                justify-items: center;
-            }*/
 
-        }
-
-               
-        }
-    }
-    footer{
-        
-        margin-top: auto;
-        justify-content: center;
-        align-content: start;
-        padding: 4px;
-        margin: 2px;
-        font-style: italic;
-        text-align: center;
-        height: 100px;
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-        .col-redes{
-
-            .l{
-                img{
-                    width: 30px;
-
-                }
-            }       
-            
-            }
-        .parrafooter{
-        font-size: 1.5em;
-        }    
-        .seguinos{
-        font-size: 1.25em;
-        }
-    }
-button{
-    background-color: #2A7B9B;
-    color:  white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-     
-}
-#carrito{
-    text-align: center;
-}
-            
-.logo-carrito img{
-    height: 30px;
-    width: 30px;
-    object-fit: contain;
-    align-items: center;
-}    
-.logo-carrito span{
-    margin-top: 0px;
 }
 
-.barra-menu{
-    list-style: none;
-    font-size: 1em;
+
+footer {
+    border: 2px solid rgb(255, 0, 149);
     display: flex;
-    justify-content: space-between;
-    align-items: end;       
-    height: 40px;    
-    img{
-        height: 20px;
-    }
-}
-.titulo-principal{
-    font-size: 50px;
+    justify-content: center;
+    align-content: start;
+    
+    font-style: italic;
     text-align: center;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    .col-redes{
+        .l{
+            img{
+                width: 30px;
+
+            }
+        }       
+        
+        }
+    .parrafooter{
+        font-size: 1.5em;
+    }    
+    .seguinos{
+        font-size: 1.25em;
+    }
+    
+   
+    
 }
-
-
